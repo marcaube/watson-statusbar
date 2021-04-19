@@ -157,7 +157,6 @@ class WatsonStatusBar(rumps.App):
 
         rumps.notification(
             title='Watson Time Tracker',
-            subtitle='Foo',
             message=f'Are you still working on {self.task_name}?',
         )
 
