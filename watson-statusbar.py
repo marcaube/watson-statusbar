@@ -5,7 +5,7 @@ from datetime import datetime
 import rumps
 from rumps import MenuItem
 
-STATUS_REGEX = r'Project ([a-zA-Z\-_]+) (?:\[.+\])?.+\((.+)\)'
+STATUS_REGEX = r'Project ([a-zA-Z\-_ \/]+)\s?(?:\[.+\])? started .+\((.+)\)'
 DATETIME_FORMAT = '%Y.%m.%d %H:%M:%S%z'
 
 TITLE_DEFAULT = '⏱ Watson'
