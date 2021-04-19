@@ -113,6 +113,7 @@ class WatsonStatusBar(rumps.App):
             self.start_project(project_name)
             menu_item = MenuItem(project_name, callback=None)
             self.menu.insert_after(projects[-1], menu_item)
+            projects.append(project_name)
 
     @rumps.timer(1)
     def update_title(self, _):
